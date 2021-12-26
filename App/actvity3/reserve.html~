@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="tsionbizuayehu3" >
+    <title>Reservation Request</title>
+</head>
+<body>
+    <h1>Reservation Request</h1>
+   <pre>                                                                       <a href="#pizza">Pizza Online Ordering Form</a></pre>
+    <table width="40%">
+        <tr>
+            <td>
+    <form action="" id="reservation">
+        <fieldset width="50%">
+            <legend>General Information </legend>
+            <label for="arrivaldate">Arival Date: </label>
+            <input type="date" id="arrivaldate" name="arrivaldate">
+            <br>
+            <label for="nights">Nights: </label>
+            <input type="number" id="nights" name="nights">
+            <br>
+            <label for="adults">Adults: </label>
+            <select name="adults" id="adults">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <br>
+            <label for="children">Children: </label>
+            <select name="children" id="children">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Preference</legend>
+            <label for="roomtype">Room Type: </label> 
+            <input type="radio" name="roomtype" id="stand" value="Standard">
+            <label for="stand">Standard</label>
+            <input type="radio" name="roomtype" id="busy" value="Buisness">
+            <label for="busy">Buisness</label>
+            <input type="radio" name="roomtype" id="suite" value="Suite">
+            <label for="suite">Suite</label>
+            <br>
+            <label for="roomtype">Bed Type: </label>
+            <input type="radio" name="bedtype" id="king" value="king">
+            <label for="king">King</label>
+            <input type="radio" name="bedtype" id="dd" value="double">
+            <label for="dd">Double Double</label>
+            <br>
+            <input type="checkbox" name="smoking" id="smoke">
+            <label for="smoke">Smoking</label>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="phonenumber">Phone Number: </label>
+            <input type="tel" id="phonenumber" name="phonenumber">
+        </fieldset>
+        <input type="submit" value="Submit Reservation  ">  
+        <input type="reset" value="Clear">
+    </form>
+    </td>
+    </tr>
+    </table>
+
+    <pre><br>
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        </pre>
+    <br>
+    <table width="20%" id="pizza">
+        <tr>
+            <td>
+                <h2>Pizza Delivery Online Order Form</h2>
+            </td>
+        </tr>
+        </table>
+        <table width="50%">
+        <tr>
+            <td>
+                <form action="">
+                    <label for="pname">*Name: </label>
+                    <input type="text" required name="pname" id="pname"> 
+                     <label for="ptel"> *Tel: </label>
+                    <input type="tel" required name="ptel" id="ptel">
+                    <br>
+                    <label for="add">*Address: </label>
+                    <input type="text" required name="add" id="add">
+                    <label for="pemail">*Email: </label>
+                    <input type="email" required name="pemail" id="pemail">
+                    <br>
+                    <label for="towncity">*Town City: </label>
+                    <input type="text" required name="towncity" id="towncity">
+                    <br>
+                    <label for="postcode">*Postcode: </label>
+                    <input type="zip" required name="postcode" id="postcode">
+                </form>
+                <br>
+                * means Required
+            </td>
+        </tr>
+        <tr>
+            <td width="30%">
+                <form>
+                <fieldset>
+                    <legend>Topping</legend>
+                    <input type="radio" name="topp" id="Margeritha" value="Margeritha">
+                    <label for="Margeritha">Margeritha</label>
+                    <br>
+                    <input type="radio" name="Topping" id="fourseasons" value="fourseasons">
+                    <label for="fourseasons">Four Seasons</label>
+                    <br>
+                    <input type="radio" name="Topping" id="meatfeast" value="meatfeast">
+                    <label for="meatfeast">Meat Feast</label>
+                </fieldset>
+                </form>
+            </td>
+            <td width="30%">
+                <form action="">
+                <fieldset>
+                    <legend>Size</legend>
+                    <input type="radio" name="size" id="small" value="small">
+                    <label for="Margeritha">Small</label>
+                    <br>
+                    <input type="radio" name="size" id="medium" value="medium">
+                    <label for="fourseasons">Medium</label>
+                    <br>
+                    <input type="radio" name="size" id="large" value="large">
+                    <label for="meatfeast">Large</label>
+                </fieldset>
+                </form>
+            </td>
+            <td width="20%">
+                <form action="">
+                <fieldset>
+                    <legend>Extras</legend>
+                    <input type="radio" name="extra" id="mushroom" value="mushroom">
+                    <label for="mushroom">Mushrooms</label>
+                    <br>
+                    <input type="radio" name="extra" id="greenpepper" value="greenpepper">
+                    <label for="greenpepper">Green Pepper</label>
+                    <br>
+                    <input type="radio" name="extra" id="anchovies" value="anchovies">
+                    <label for="anchovies">Anchovies</label>
+                    <br>
+                    <input type="radio" name="extra" id="extracheese" value="extracheese">
+                    <label for="extracheese">Extra Cheese</label>
+                </fieldset>
+                </form>
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+            <tr colspan="4">
+                <br>
+                <td action="">
+                    <form action="">
+                    <label for="time">Preferred Delivery Time: </label>
+                    <input type="time" name="time" id="time">
+                    </form>
+            </td>
+        </tr>
+        <tr>
+              <td colspan="3">
+                  <form action="">
+                    <label for="inst">Delivery Instruction or Address: </label>
+                    <textarea name="inst" id="inst" cols="15" rows="5"></textarea>
+                    <br><br>
+                    <input type="submit" value="Submit Order">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

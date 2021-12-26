@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Image Map</title>
+</head>
+<body>
+        <h1> Image map</h1>
+        <h2> Click on the bag and the hair!</h2>
+ <img src="../../resources/images\banners/life1.jpg" width="700px" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="Hairstyle for men" title="Hairstyle for men" href="https://haircutinspiration.com/haircuts-for-men-2/" 
+    coords="544,114,548,107,558,104,570,105,583,108,588,121,588,133,583,145,573,149,563,147,559,134,551,132,547,123,543,113" shape="poly">
+    <area target="" alt="Bagpack" title="Bagpack" href="https://www.mybagpack.com/" 
+    coords="606,153,617,160,630,155,636,163,644,171,653,184,655,198,652,215,652,234,652,255,646,270,634,277,618,276,609,270,607,255,605,234,600,215,599,207,601,193,598,179,592,172,581,164,570,156,587,160,597,166"
+     shape="poly">
+
+</map>
+       </body>
+       </html>   
