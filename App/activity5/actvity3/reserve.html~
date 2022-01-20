@@ -39,7 +39,7 @@
         <fieldset>
             <legend>Preference</legend>
             <label for="roomtype">Room Type: </label> 
-            <input type="radio" name="roomtype" id="stand" value="Standard" checked>
+            <input type="radio" name="roomtype" id="stand" value="Standard">
             <label for="stand">Standard</label>
             <input type="radio" name="roomtype" id="busy" value="Buisness">
             <label for="busy">Buisness</label>
@@ -47,7 +47,7 @@
             <label for="suite">Suite</label>
             <br>
             <label for="roomtype">Bed Type: </label>
-            <input type="radio" name="bedtype" id="king" value="king" checked>
+            <input type="radio" name="bedtype" id="king" value="king">
             <label for="king">King</label>
             <input type="radio" name="bedtype" id="dd" value="double">
             <label for="dd">Double Double</label>
@@ -73,9 +73,7 @@
     </tr>
     </table>
 
-    <pre>
-    
-    
+    <pre><br>
     
     
     

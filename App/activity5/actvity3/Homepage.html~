@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="tsionbizuayehu3" >
+    <title>Reservation Request</title>
+</head>
+<body>
+
+    <h1 align="center"> LEGEND JOB APPLICATION ,RESERVATION & ORDERING SYSTEM  </h1>
+<table align="center" border="100"  >
+
+<tr>
+<td>
+
+<p><a href="job app form.html">
+<button> Job application </button>
+</a></p>
+
+</td></tr>
+<tr>
+<td>
+<p><a href="reserve.html">
+<img src="../../resources/img/reserve.jpg" alt="Room" width="400" height="350">
+</a></p>
+<td>
+<p><a href="reserve.html#pizza">
+<img src="../../resources/img/pizzeria.jpeg" alt="Pizzeria" width="400" height="350">
+</a></p>
+</td>
+</td> </tr>
+
+
+<tr>
+<td align="center"  > <big>
+<h2 > Available <br> Exclusive Rooms <br> Right Now! </h2></big>
+</td>
+<td >
+<img src="../../resources/img/Room1.jpg" alt="Room" width="400" height="350">
+</td>
+</tr>
+<tr>
+<td><img src="../../resources/img/Room2.jpeg" alt="Room" width="400" height="350">
+</td>
+<td>
+<img src="../../resources/img/Room3.jpeg" alt="Room" width="400" height="350">
+</td>
+</tr>
+<tr>
+<td>
+<img src="../../resources/img/Room4.jpg" alt="Room" width="400" height="350">
+</td> 
+<td><img src="../../resources/img/Room5.jpg" alt="Room" width="400" height="350">
+</td>
+</tr>
+<tr>
+<td>
+<img src="../../resources/img/Room6.jpg" alt="Room" width="400" height="350"></td> 
+<td>
+<img src="../../resources/img/Room7.jpeg" alt="Room" width="400" height="350">
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="../../resources/img/Room8.jpeg" alt="Room" width="400" height="350">
+</td> 
+<td>
+<img src="../../resources/img/Room9.jpg" alt="Room" width="400" height="350">
+</td>
+</tr>
+<tr>
+<td  >
+<img src="../../resources/img/Room10.jpg" alt="Room" width="400" height="350">
+</td>
+</tr>
+ <br>
+ 
+</table>
+ 
+
+
+
+<p align="center"  ><b><a href="feedback.html">
+Feedback 
+</a></b></p>
+
+
+
+</body>
+</html>

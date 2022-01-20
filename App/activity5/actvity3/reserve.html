@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="tsionbizuayehu3" >
     <title>Reservation Request</title>
+    
 </head>
 <body>
+    <div onmouseover = "over()" >
+</div>
     <h1>Reservation Request</h1>
    <pre>                                                                       <a href="#pizza">Pizza Online Ordering Form</a></pre>
     <table width="40%">
         <tr>
             <td>
     <form action="" id="reservation">
+        <button onclick = "sayWelcome()">Say Welcome</button>
+        
         <fieldset width="50%">
             <legend>General Information </legend>
             <label for="arrivaldate">Arival Date: </label>
@@ -66,13 +71,16 @@
             <label for="phonenumber">Phone Number: </label>
             <input type="tel" id="phonenumber" name="phonenumber">
         </fieldset>
-        <input type="submit" value="Submit Reservation  ">  
-        <input type="reset" value="Clear">
+        <button type="submit" value="Submit Reservation"  onclick="SubmitReseve()" >submit Reservation</button>
+        <button type="reset" value="Clear" onclick = "out()">clear</button>
     </form>
     </td>
     </tr>
     </table>
-
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+    style="background-color:#171bf1;width:120px;height:20px;padding:40px;">
+    Mouse Over Me</div>
+    
     <pre>
     
     
@@ -99,6 +107,7 @@
             <td>
                 <form action="">
                     <label for="pname">*Name: </label>
+                    <button onclick="myFunction1()">Fill</button>
                     <input type="text" required name="pname" id="pname"> 
                      <label for="ptel"> *Tel: </label>
                     <input type="tel" required name="ptel" id="ptel">
@@ -192,5 +201,33 @@
             </td>
         </tr>
     </table>
+    <script src="script.js">
+        function sayWelcome() {
+    alert("Welcome visitor")
+ }
+
+        document.getElementById("myInput").addEventListener("input", myFunction);
+        
+       function myFunction() {
+         alert("The value of the input field was changed.");
+         
+       }
+      function myFunc(){
+        var x=document.getElementById("name");
+        x.value=x.value.toUpperCase();
+        
+      }
+      function mOver(obj){
+        obj.innerHTML="Thank You for your reserving"
+      }
+      function mOut(obj){
+        obj.innerHTML="Mouse Over Me"
+      }
+      function myFunction(x) {
+       x.style.background = "green";
+      }
+
+   </script>
+
 </body>
 </html>
