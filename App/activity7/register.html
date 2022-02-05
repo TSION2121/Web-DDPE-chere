@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 7</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="fullname">Full Name</label><br>
+        <input type="text" id="fullname" name="FullName" maxlength="50" size="50%" required onfocus="focusevent()"
+            onblur="myFunction()"><br>
+        <label for="phone">Phone</label><br>
+        <input type="number" id="phone" name="Phone" required size="50%" onkeydown="keydownevent()"><br>
+        <label for="age">Age</label><br>
+        <input type="number" name="Age" id="age" min="18" max="80" required><br>
+       
+
+        <label for="country">Country</label><br>
+        <select name="Country" id="country">
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="Kenya"></option>
+            <option value="Sudan">Sudan</option>
+            <option value="Uganda"></option>
+            <option value="USA">USA</option>
+        </select><br>
+        <label for="photo">Photo</label><br>
+        <input type="file" name="Photo" id="photo"><br>
+        <label for="describe">Describe Yourself</label><br>
+        <textarea name="Desc" id="describe" cols="60" rows="10"></textarea><br>
+
+        <!-- <button type="reset"  onclick = "sayHello()">Reset</button> -->
+    </form>
+    <button type="submit" onclick="introduceMySelf()" id="submitBtn">Submit</button>
+    <div id="render"></div>
+
+    <script src="register.js"></script>
+</body>
+
+</html>
